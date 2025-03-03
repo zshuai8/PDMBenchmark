@@ -1,0 +1,37 @@
+# Predictive Maintenance Benchmark Configuration
+
+data:
+  raw_path: 'data/raw'
+  processed_path: 'data/processed'
+
+feature_engineering:
+  use_rolling_features: true
+  create_polynomial_features: false
+  window_size: 24  # for rolling window features
+
+model:
+  type: 'random_forest'  # Options: random_forest, gradient_boosting
+  saved_models_path: 'models/saved'
+  test_size: 0.2
+  random_state: 42
+  params:
+    n_estimators: 100
+    max_depth: 10
+    # Add other model-specific parameters as needed
+
+benchmark:
+  results_path: 'results'
+  metrics:
+    - 'accuracy'
+    - 'precision'
+    - 'recall'
+    - 'f1'
+  models_to_compare:
+    - 'RandomForest-Default'
+    - 'RandomForest-Tuned'
+    - 'GradientBoosting-Default'
+    - 'GradientBoosting-Tuned'
+
+logging:
+  level: 'INFO'
+  file: 'logs/app.log'
