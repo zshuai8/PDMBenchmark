@@ -6,7 +6,7 @@
 
 ```bash
 git clone https://github.com/zshuai8/PDMBenchmark
-cd PDMBench
+cd PDMBenchmark
 ```
 
 ### 2. Install Requirements
