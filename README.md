@@ -1,14 +1,14 @@
-# PDMBenchmark
+# PDMBench
 
-A comprehensive benchmark framework for Predictive Maintenance (PdM) using state-of-the-art time series models.
+A Standardized and Multi-Perspective Benchmark for Predictive Maintenance on Multi-Sensor Industrial Time-Series Data 
 
 ## Getting Started
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/zshuai8/PDMBenchmark
-cd PDMBenchmark
+git clone https://github.com/zshuai8/PDMBench
+cd PDMBench
 ```
 
 ### 2. Install Requirements
