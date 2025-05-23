@@ -7,8 +7,8 @@ A Standardized and Multi-Perspective Benchmark for Predictive Maintenance on Mul
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/zshuai8/PDMBench
-cd PDMBench
+git clone https://github.com/zshuai8/PDMBenchmark
+cd PDMBenchmark
 ```
 
 ### 2. Install Requirements
