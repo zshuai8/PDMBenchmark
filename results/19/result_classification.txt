@@ -1,0 +1,9 @@
+classification_Heartbeat_FreTS_PDM_19_ftM_sl3600_ll48_pl0_dm128_nh8_el3_dl1_df256_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+accuracy:0.9787234042553191
+f1_micro:0.9787234042553191
+f1_macro:0.9793188537201475
+f1_weighted:0.9788848937563323
+ece:0.7251116633415222
+nll:1.3932273387908936
+brier:0.07039492577314377
+

@@ -1,0 +1,9 @@
+classification_Heartbeat_DLinear_PDM_03_ftM_sl96_ll48_pl96_dm128_nh8_el3_dl1_df256_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+accuracy:0.7914285714285715
+f1_micro:0.7914285714285715
+f1_macro:0.5371595698095318
+f1_weighted:0.7288478418449131
+ece:0.4364134669303894
+nll:1.0434311628341675
+brier:0.20973455905914307
+

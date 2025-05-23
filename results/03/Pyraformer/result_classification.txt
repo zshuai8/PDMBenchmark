@@ -1,0 +1,9 @@
+classification_Heartbeat_Pyraformer_PDM_03_ftM_sl96_ll48_pl96_dm128_nh8_el3_dl1_df256_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+accuracy:0.9257142857142857
+f1_micro:0.9257142857142857
+f1_macro:0.86615981626673
+f1_weighted:0.9249377184943827
+ece:0.3828403949737549
+nll:0.6297951340675354
+brier:0.10967553406953812
+

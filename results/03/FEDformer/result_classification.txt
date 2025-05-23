@@ -1,0 +1,9 @@
+classification_Heartbeat_FEDformer_PDM_03_ftM_sl96_ll48_pl96_dm128_nh8_el3_dl1_df256_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+accuracy:0.9542857142857143
+f1_micro:0.9542857142857143
+f1_macro:0.9200471186003885
+f1_weighted:0.9542745748921477
+ece:0.4524573087692261
+nll:0.7083783149719238
+brier:0.12958933413028717
+

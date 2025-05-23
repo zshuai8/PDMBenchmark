@@ -1,0 +1,9 @@
+classification_Heartbeat_iTransformer_PDM_04_ftM_sl17_ll48_pl0_dm128_nh8_el3_dl1_df256_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+accuracy:0.8542144714700933
+f1_micro:0.8542144714700933
+f1_macro:0.8055874778033834
+f1_weighted:0.8482404103466548
+ece:0.42718786001205444
+nll:0.9156752228736877
+brier:0.11914566904306412
+

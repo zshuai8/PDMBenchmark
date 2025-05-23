@@ -1,0 +1,9 @@
+classification_Heartbeat_SCINet_PDM_03_ftM_sl96_ll48_pl96_dm128_nh8_el3_dl1_df256_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+accuracy:0.8314285714285714
+f1_micro:0.8314285714285714
+f1_macro:0.569027233861104
+f1_weighted:0.7730650076384336
+ece:0.39041346311569214
+nll:0.9034018516540527
+brier:0.17604269087314606
+

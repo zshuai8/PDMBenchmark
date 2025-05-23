@@ -1,0 +1,9 @@
+classification_Heartbeat_MLP_PDM_03_ftM_sl96_ll48_pl96_dm128_nh8_el3_dl1_df256_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+accuracy:0.8257142857142857
+f1_micro:0.8257142857142856
+f1_macro:0.5622317758846905
+f1_weighted:0.7669708750135716
+ece:0.4754566252231598
+nll:1.0521634817123413
+brier:0.21182651817798615
+

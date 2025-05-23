@@ -1,0 +1,94 @@
+task_name:classification
+is_training:1
+model_id:default_model_id
+model:DLinear
+data:13
+root_path:./dataset/13/
+file_list:['PdM_TRAIN.npz', 'PdM_VAL.npz', 'PdM_TEST.npz']
+data_path:./dataset/PdM_01
+features:None
+target:None
+freq:h
+checkpoints:./checkpoints/
+seq_len:600
+label_len:48
+pred_len:0
+seasonal_patterns:Monthly
+inverse:False
+mask_rate:0.25
+anomaly_ratio:0.25
+expand:2
+d_conv:4
+top_k:5
+num_kernels:6
+enc_in:1
+dec_in:7
+c_out:7
+d_model:32
+n_heads:8
+e_layers:1
+d_layers:1
+d_ff:2048
+moving_avg:25
+factor:1
+distil:True
+dropout:0.1
+embed:timeF
+activation:gelu
+channel_independence:1
+decomp_method:moving_avg
+use_norm:1
+down_sampling_layers:0
+down_sampling_window:1
+down_sampling_method:None
+seg_len:96
+project_input_shape:96
+num_workers:0
+itr:1
+train_epochs:1
+batch_size:32
+patience:3
+learning_rate:0.001
+des:default_experiment
+loss:CrossEntropyLoss
+lradj:type1
+use_amp:False
+use_gpu:True
+gpu:0
+gpu_type:cuda
+use_multi_gpu:False
+devices:0
+use_wandb:False
+p_hidden_dims:[128, 128]
+p_hidden_layers:2
+use_dtw:False
+augmentation_ratio:0
+seed:2
+jitter:False
+scaling:False
+permutation:False
+randompermutation:False
+magwarp:False
+timewarp:False
+windowslice:False
+windowwarp:False
+rotation:False
+spawner:False
+dtwwarp:False
+shapedtwwarp:False
+wdba:False
+discdtw:False
+discsdtw:False
+extra_tag:
+patch_len:16
+model_dict:{'TimesNet': <module 'models.TimesNet' from '/data/home/zshuai8/PDMBench/models/TimesNet.py'>, 'Autoformer': <module 'models.Autoformer' from '/data/home/zshuai8/PDMBench/models/Autoformer.py'>, 'Transformer': <module 'models.Transformer' from '/data/home/zshuai8/PDMBench/models/Transformer.py'>, 'Nonstationary_Transformer': <module 'models.Nonstationary_Transformer' from '/data/home/zshuai8/PDMBench/models/Nonstationary_Transformer.py'>, 'DLinear': <module 'models.DLinear' from '/data/home/zshuai8/PDMBench/models/DLinear.py'>, 'FEDformer': <module 'models.FEDformer' from '/data/home/zshuai8/PDMBench/models/FEDformer.py'>, 'Informer': <module 'models.Informer' from '/data/home/zshuai8/PDMBench/models/Informer.py'>, 'LightTS': <module 'models.LightTS' from '/data/home/zshuai8/PDMBench/models/LightTS.py'>, 'Reformer': <module 'models.Reformer' from '/data/home/zshuai8/PDMBench/models/Reformer.py'>, 'ETSformer': <module 'models.ETSformer' from '/data/home/zshuai8/PDMBench/models/ETSformer.py'>, 'PatchTST': <module 'models.PatchTST' from '/data/home/zshuai8/PDMBench/models/PatchTST.py'>, 'Pyraformer': <module 'models.Pyraformer' from '/data/home/zshuai8/PDMBench/models/Pyraformer.py'>, 'MICN': <module 'models.MICN' from '/data/home/zshuai8/PDMBench/models/MICN.py'>, 'Crossformer': <module 'models.Crossformer' from '/data/home/zshuai8/PDMBench/models/Crossformer.py'>, 'FiLM': <module 'models.FiLM' from '/data/home/zshuai8/PDMBench/models/FiLM.py'>, 'iTransformer': <module 'models.iTransformer' from '/data/home/zshuai8/PDMBench/models/iTransformer.py'>, 'Koopa': <module 'models.Koopa' from '/data/home/zshuai8/PDMBench/models/Koopa.py'>, 'TiDE': <module 'models.TiDE' from '/data/home/zshuai8/PDMBench/models/TiDE.py'>, 'FreTS': <module 'models.FreTS' from '/data/home/zshuai8/PDMBench/models/FreTS.py'>, 'MambaSimple': <module 'models.MambaSimple' from '/data/home/zshuai8/PDMBench/models/MambaSimple.py'>, 'TimeMixer': <module 'models.TimeMixer' from '/data/home/zshuai8/PDMBench/models/TimeMixer.py'>, 'TSMixer': <module 'models.TSMixer' from '/data/home/zshuai8/PDMBench/models/TSMixer.py'>, 'SegRNN': <module 'models.SegRNN' from '/data/home/zshuai8/PDMBench/models/SegRNN.py'>, 'TemporalFusionTransformer': <module 'models.TemporalFusionTransformer' from '/data/home/zshuai8/PDMBench/models/TemporalFusionTransformer.py'>, 'SCINet': <module 'models.SCINet' from '/data/home/zshuai8/PDMBench/models/SCINet.py'>, 'PAttn': <module 'models.PAttn' from '/data/home/zshuai8/PDMBench/models/PAttn.py'>, 'TimeXer': <module 'models.TimeXer' from '/data/home/zshuai8/PDMBench/models/TimeXer.py'>, 'WPMixer': <module 'models.WPMixer' from '/data/home/zshuai8/PDMBench/models/WPMixer.py'>, 'MultiPatchFormer': <module 'models.MultiPatchFormer' from '/data/home/zshuai8/PDMBench/models/MultiPatchFormer.py'>, 'MLP': <module 'models.MLP' from '/data/home/zshuai8/PDMBench/models/MLP.py'>}
+num_class:2
+
+
+Accuracy: 0.7880240480961924
+F1 Micro: 0.7880240480961925
+F1 Macro: 0.442006311968042
+F1 Weighted: 0.7056486010158759
+ECE: 0.10759735107421875
+NLL: 0.5448927283287048
+Brier: 0.17872373759746552

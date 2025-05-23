@@ -1,0 +1,9 @@
+classification_Heartbeat_TimeMixer_PDM_03_ftM_sl96_ll48_pl96_dm128_nh8_el3_dl1_df256_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+accuracy:0.7857142857142857
+f1_micro:0.7857142857142857
+f1_macro:0.5292741951884165
+f1_weighted:0.7228475557143729
+ece:0.367636114358902
+nll:0.9183626770973206
+brier:0.17928200960159302
+

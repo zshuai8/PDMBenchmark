@@ -1,0 +1,9 @@
+classification_Heartbeat_MICN_PDM_03_ftM_sl96_ll48_pl96_dm128_nh8_el3_dl1_df256_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+accuracy:0.8228571428571428
+f1_micro:0.8228571428571428
+f1_macro:0.6721162948624807
+f1_weighted:0.8101569495823508
+ece:0.45011311769485474
+nll:0.9951484203338623
+brier:0.19841495156288147
+

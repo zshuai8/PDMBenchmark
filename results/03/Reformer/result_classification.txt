@@ -1,0 +1,9 @@
+classification_Heartbeat_Reformer_PDM_03_ftM_sl96_ll48_pl96_dm128_nh8_el3_dl1_df256_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+accuracy:0.7714285714285715
+f1_micro:0.7714285714285715
+f1_macro:0.5614317529313907
+f1_weighted:0.6823932567472775
+ece:0.3793826997280121
+nll:0.9707963466644287
+brier:0.19221368432044983
+

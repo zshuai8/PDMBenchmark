@@ -1,0 +1,9 @@
+classification_Heartbeat_TimeXer_PDM_01_ftM_sl17_ll48_pl0_dm128_nh8_el3_dl1_df256_expand2_dc4_fc1_ebtimeF_dtTrue_Exp_0  
+accuracy:0.6167534722222222
+f1_micro:0.6167534722222222
+f1_macro:0.6113430896324334
+f1_weighted:0.6138049577706085
+ece:0.2229190319776535
+nll:1.1300721168518066
+brier:0.15158365666866302
+
