@@ -4,14 +4,7 @@ A Standardized and Multi-Perspective Benchmark for Predictive Maintenance on Mul
 
 ## Getting Started
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/zshuai8/PDMBenchmark
-cd PDMBenchmark
-```
-
-### 2. Install Requirements
+### 1. Install Requirements
 
 We recommend Python 3.8+ and a virtual environment. Then run:
 
@@ -19,7 +12,7 @@ We recommend Python 3.8+ and a virtual environment. Then run:
 pip install -r requirements.txt
 ```
 
-### 3. Prepare Datasets
+### 2. Prepare Datasets
 
 Download and unzip the datasets into the `./dataset/` directory. We support all standard datasets defined in the benchmark, including:
 
@@ -29,7 +22,7 @@ Our dataset can be downloaded from https://huggingface.co/collections/odysseywt/
 
 See the `dataset_mapping` inside the codebase for full descriptions.
 
-### 4. Run Benchmark Experiments
+### 3. Run Benchmark Experiments
 
 To train and evaluate a model via CLI:
 
@@ -77,8 +70,3 @@ As shown in **Figure 1**, users can interactively explore raw time-series signal
 Finally, **Figure 3** presents the benchmarking interface, where metrics such as accuracy, F1 score, calibration error, and inference time are summarized across datasets. This helps practitioners select and tune models based on task-specific requirements.
 
 
-```
-
-## Contact
-
-For questions, please open an [issue](https://github.com/zshuai8/PDMBenchmark) or reach out via [email](zshuai8@vt.edu).
