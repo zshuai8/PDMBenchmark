@@ -76,19 +76,7 @@ As shown in **Figure 1**, users can interactively explore raw time-series signal
 
 Finally, **Figure 3** presents the benchmarking interface, where metrics such as accuracy, F1 score, calibration error, and inference time are summarized across datasets. This helps practitioners select and tune models based on task-specific requirements.
 
-## Acknowledgment
 
-Our benchmark framework is built upon and extends the excellent [Time Series Library (TSLib)](https://github.com/thuml/Time-Series-Library), an open-source project that provides a unified and extensible codebase for evaluating state-of-the-art deep learning models in time series tasks. We greatly appreciate the efforts of the TSLib team and leverage many of their models and utilities in our work.
-
-If you find our benchmark useful, please also consider citing the TSLib's foundational paper:
-
-```bibtex
-@inproceedings{wu2023timesnet,
-  title={TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis},
-  author={Haixu Wu and Tengge Hu and Yong Liu and Hang Zhou and Jianmin Wang and Mingsheng Long},
-  booktitle={International Conference on Learning Representations},
-  year={2023},
-}
 ```
 
 ## Contact
