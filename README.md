@@ -18,7 +18,7 @@ Download and unzip the datasets into the `./dataset/` directory. We support all 
 
 * Paderborn, CWRU, FEMTO, IMS, MFPT, XJTU, HUST Bearing, etc. 
 
-Our dataset can be downloaded from [https://huggingface.co/collections/odysseywt/pdmlibrary-682504064fc74fcd889cc17f](https://huggingface.co/submission096)
+Our dataset can be downloaded from [https://huggingface.co/submission096](https://huggingface.co/submission096)
 
 See the `dataset_mapping` inside the codebase for full descriptions.
 
